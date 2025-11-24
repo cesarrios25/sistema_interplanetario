@@ -1,26 +1,8 @@
 [
     {
         "ID": "1",
-        "Nombre": "pedro",
-        "Especie": "humanoide",
-        "Estado": "activo"
-    },
-    {
-        "ID": "3",
-        "Nombre": "juana",
-        "Especie": "humano",
-        "Estado": "retirado"
-    },
-    {
-        "ID": "4",
-        "Nombre": "julio",
-        "Especie": "humano",
-        "Estado": "Eliminado"
-    },
-    {
-        "ID": "5",
-        "Nombre": "carlos",
-        "Especie": "humaniode",
-        "Estado": "activo"
+        "Descripcion": "nave tri v002",
+        "Rareza": "alto",
+        "Estatus": "en estudio"
     }
 ]

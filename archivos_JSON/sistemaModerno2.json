@@ -1,0 +1,14 @@
+[
+    {
+        "ID": "1",
+        "Descripcion": "nave tr v003",
+        "Rareza": "prohibido",
+        "Estatus": "en estudio"
+    },
+    {
+        "ID": "2",
+        "Descripcion": "piedra mistica",
+        "Rareza": "medio",
+        "Estatus": "almacenado"
+    }
+]

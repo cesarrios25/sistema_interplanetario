@@ -1,5 +1,6 @@
 from auth import sesionAdmin
 from visitors import menuVisitantes
+from artifacts import menuArtefactos
 
 def salir():
     while True:
@@ -31,10 +32,8 @@ def menu():
         match opcion:
             case "1":
                 menuVisitantes()
-                print("mantenimiento")
             case "2":
-                #menuArtefactos()
-                print("mantenimiento")
+                menuArtefactos()
             case "3":
                 if salir():
                     break

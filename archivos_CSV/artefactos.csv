@@ -1,1 +1,3 @@
-ID,Descripcion,Niver_Rareza,Estatus
+ID,Descripcion,Rareza,Estatus
+1,nave tr v003,prohibido,en estudio
+2,piedra mistica,medio,almacenado

@@ -29,8 +29,7 @@ def menuVisitantes():
             case "6":
                 estadisticas()
             case "7":
-                #regresarMenu()
-                print()
+                return
             case _:
                 print("\033[31mOpción inválida.\n\033[0m")
 
@@ -57,7 +56,7 @@ def registrarVisitante():
         especie = input("\033[32mIngrese Especie: \033[0m")
         estado = input("\033[32mIngrese Estado Activo / Retirado: \033[0m")
 
-# Genero automaticamente el id
+# asigna el id
         nuevoID = generarID(visitantes)
 
         visitante = {
