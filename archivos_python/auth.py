@@ -1,5 +1,7 @@
 import csv
 
+
+
 # Carga al administrador desde el CSV.
 def cargarAdmin():
     with open("archivos_CSV/admin_access.csv", "r", encoding="utf-8") as archivo:
@@ -26,4 +28,5 @@ def sesionAdmin(intentos = 3):
         return True
     
     print(f"\nCredenciales incorrectas. Te quedan {intentos - 1} intentos.")
-    return sesionAdmin(intentos - 1) 
+    return sesionAdmin(intentos - 1)
+
